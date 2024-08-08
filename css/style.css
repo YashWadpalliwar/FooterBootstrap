@@ -1,0 +1,80 @@
+/***********************/
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+body {
+  padding-top: 60px;
+}
+
+/* footer */
+
+.footer_wrapper {
+  padding: 0;
+}
+
+.footer_wrapper .form-group .form-control::placeholder {
+  color: white;
+}
+.footer_wrapper h5{
+  color: #fff;
+}
+.footer_wrapper a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer_wrapper ul li {
+  margin-bottom: 0.5rem;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.footer_wrapper ul li a {
+  color: #fff;
+}
+
+.footer_wrapper .link-widget a::before {
+  content: "\f104";
+  /* Unicode for the "less than" symbol in Font Awesome */
+  font-family: "Font Awesome 5 Free";
+  /* Font family for Font Awesome */
+  font-weight: 900;
+  /* Font weight for the arrow (you can adjust this) */
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.footer_wrapper .link-widget li a:hover {
+  margin-left: 0.625rem;
+  color: rgb(71, 71, 244);
+}
+
+.footer_wrapper .social-network a {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  list-style: none;
+  line-height: 2rem;
+  font-size: 0.875rem;
+  display: inline-block;
+  background-color: rgb(235, 11, 198);
+  border: 0.125rem solid none;
+  color: var(--text-light);
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.footer_wrapper .social-network a:hover {
+  color: white;
+  transform: translateY(-0.1875rem);
+}
+
+.footer_wrapper .copyright-section {
+  padding: 1rem 0 1rem;
+  text-align: center;
+}
+
